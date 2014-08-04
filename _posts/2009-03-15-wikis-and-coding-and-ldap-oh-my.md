@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wikis and coding and ldap, oh my! <_<
-category : Code, health
+category : [Code, health]
 tagline: 
 tags : [cid, eggdrop, extsock, ldap, php, Projects, wiki]
 timestamp: 1237139040

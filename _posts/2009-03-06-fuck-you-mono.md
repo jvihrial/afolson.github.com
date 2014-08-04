@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fuck you, mono.
-category : Code, health
+category : [Code, health]
 tagline: 
 tags : [mono, php, rage]
 timestamp: 1236339660
