@@ -16,8 +16,20 @@ module.exports = function(grunt) {
         separator: ';'
       },
       bootstrap: {
-        src: [
-          '<%= config.bower_path %>/bootstrap/js/*.js'
+                src: [
+          /* Individually named to control the order in which they're compiled. Tooltip must be loaded before Popover. */
+          '<%= config.bower_path %>/bootstrap/js/affix.js',
+          '<%= config.bower_path %>/bootstrap/js/alert.js',
+          '<%= config.bower_path %>/bootstrap/js/button.js',
+          '<%= config.bower_path %>/bootstrap/js/carousel.js',
+          '<%= config.bower_path %>/bootstrap/js/collapse.js',
+          '<%= config.bower_path %>/bootstrap/js/dropdown.js',
+          '<%= config.bower_path %>/bootstrap/js/modal.js',
+          '<%= config.bower_path %>/bootstrap/js/tooltip.js',
+          '<%= config.bower_path %>/bootstrap/js/popover.js',
+          '<%= config.bower_path %>/bootstrap/js/scrollspy.js',
+          '<%= config.bower_path %>/bootstrap/js/tab.js',
+          '<%= config.bower_path %>/bootstrap/js/transition.js'
         ],
         dest: '<%= config.build_path %>/bootstrap.js'
       },
