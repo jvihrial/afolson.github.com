@@ -1,11 +1,12 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+#permalink: /:categories/:year/:month/:day/:title 
+permalink: /blog/:year/:month/:day/:title 
 
-exclude: [.gitignore, bower.json, Gruntfile.js, package.json, bower_components, node_modules]
+exclude: [.gitignore, bower.json, Gruntfile.js, package.json, bower_components, node_modules, atom.xml, rss.xml]
 
 #exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+#highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
