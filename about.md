@@ -3,6 +3,8 @@ layout: page
 title: About
 header: About Me, Amanda
 group: navigation
+timestamp: 1226172900
+permalink: /about/
 ---
 I guess this is where I write about myself. Here are some things you should know about me:
 
