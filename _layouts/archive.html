@@ -3,8 +3,19 @@
         <div class="col-sm-8 blog-main">
           <div class="blog-post">
             <h2 class="blog-post-title">{{ page.title }}</h2>
-            <!-- TODO: Style span -->
-              {{ content }}
+              {% for post in site.posts %}
+              {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+              {% capture month %}{{ post.date | date: "%B" }}{% endcapture %}
+              {% capture nyear %}{{ post.next.date | date: "%Y" }}{% endcapture %}
+              {% capture nmonth %}{{ post.next.date | date: "%B" }}{% endcapture %}
+              {% if year != nyear %}
+                </ul>
+                <h3>{{ post.date | date: "%Y" }}</h3>
+                <ul>
+              {% endif %}
+              <li>{{ post.date | date:"%B %e" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+                </ul>
           </div>
         </div>
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
