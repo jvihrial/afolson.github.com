@@ -1,7 +1,9 @@
 ---
 layout: main
-title: Welcome
-tagline: Or something like that...
+title: Home
+header: Hi
+group: navigation
+permalink: /
 ---
 This is Amanda Folson's corner of the Internet. Welcome.
 
