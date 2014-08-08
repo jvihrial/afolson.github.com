@@ -28,14 +28,8 @@
             {% assign pagelist = site.pages %}
             {% for node in pagelist %}
               {% if node.title != null and node.group == "navigation" %}
-                <li><a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></li>
+                <li {% if node.url == page.url %}class="active"{% endif %}><a href="{{ BASE_PATH }}{{ node.url }}">{{ node.title }}</a></li>
               {% endif %}
             {% endfor %}
-<!--           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Downloads</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li> -->
         </ul>
       </div>
