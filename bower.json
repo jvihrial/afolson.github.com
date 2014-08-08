@@ -1,7 +1,8 @@
 {
   "name": "zomg",
   "dependencies": {
-    "bootstrap": "~3.2.0"
+    "bootstrap": "~3.2.0",
+    "typicons": "*"
   },
   "homepage": "http://afolson.github.io",
   "private": true,
