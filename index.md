@@ -1,6 +1,8 @@
 ---
-layout: page
-title: Under Development
+layout: main
+title: Welcome
 tagline: Or something like that...
 ---
-Nothing to see here! Just slowly migrating my blog. ALL ERRORS ARE INTENTIONAL >_>
+This is Amanda Folson's corner of the Internet. Welcome.
+
+This site is being migrated over from Wordpress so expect everything to be broken. Sorry about that...
