@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About
 header: About Me, Amanda
 group: navigation
