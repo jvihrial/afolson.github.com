@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         separator: ';'
       },
       bootstrap: {
-                src: [
+        src: [
           /* Individually named to control the order in which they're compiled. Tooltip must be loaded before Popover. */
           '<%= config.bower_path %>/bootstrap/js/affix.js',
           '<%= config.bower_path %>/bootstrap/js/alert.js',
