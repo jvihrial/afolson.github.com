@@ -11,14 +11,14 @@ exclude: [.gitignore, bower.json, Gruntfile.js, package.json, bower_components, 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Amanda's Drivel
+tagline: Sometimes I make things
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Amanda Folson
+  email : hahanicetry@spamme.rs
+  github : afolson
+  twitter : AmbassadorAwsum
+  facebook : sfgsdfgdfg
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
