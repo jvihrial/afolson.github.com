@@ -18,6 +18,8 @@ h6, .h6 {
   color: #333;*/
 }
 
+
+
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -75,11 +77,18 @@ h6, .h6 {
   border-radius: 0 0 5px 5px;
 }
 
-
-
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
 
 @media (min-width: 1200px) {
   .container {
+    padding-top: 20px;
     width: 970px;
   }
 }
