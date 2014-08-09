@@ -3,7 +3,7 @@
 body {
   padding-top: 20px;
   font-family: "Oxygen", Helvetica, sans-serif;
-  background-image:url(/img/wall4.png); background-repeat:repea
+  background-image:url(/assets/img/wall4.png); background-repeat:repeat;
 }
 
 h1, .h1,

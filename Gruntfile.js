@@ -2,10 +2,10 @@ module.exports = function(grunt) {
   var config = {
     bower_path: 'bower_components',
     build_path: '.build',
-    css: 'css',
-    js: 'js',
-    images: 'img',
-    fonts: 'fonts',
+    css: 'assets/css',
+    js: 'assets/js',
+    images: 'assets/img',
+    fonts: 'assets/fonts',
   };
   grunt.registerTask('default', [ 'concat', 'copy', 'uglify', 'less', 'cssmin', 'clean' ]);
   grunt.initConfig({
