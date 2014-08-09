@@ -5,6 +5,7 @@ header: About Me, Amanda
 group: navigation
 timestamp: 1226172900
 permalink: /about/
+weight: 3
 ---
 # Skip Around
   * [General](#general)

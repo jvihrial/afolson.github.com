@@ -4,6 +4,7 @@ title: Home
 header: Hi
 group: navigation
 permalink: /
+weight: 0
 ---
 This is Amanda Folson's corner of the Internet. Welcome.
 
