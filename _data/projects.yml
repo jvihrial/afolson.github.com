@@ -14,7 +14,7 @@
   description: "Web-based control panel for IRC networks running UnrealIRCd."
   image: /assets/img/placeholder.png
 
-- title: Rustk
+- title: Runely
   permalink: /projects/runely/
   url: "http://rune.ly"
   technologies: "PHP, MySQL"
@@ -26,4 +26,11 @@
   url: "http://www.rustk.com"
   technologies: "PHP, MySQL"
   description: "Web-based RuneScape rool kit based on Tiko by Zybez."
+  image: /assets/img/placeholder.png
+
+- title: Pastewin
+  permalink: /projects/pastewin/
+  url: "http://www.pastewin.com"
+  technologies: "PHP, MySQL"
+  description: "Yet Another Pastebin"
   image: /assets/img/placeholder.png
