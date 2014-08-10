@@ -1,0 +1,31 @@
+{% include header.html %}
+<div class="row">
+  <div class="col-sm-12 blog-main">
+    <div class="blog-post">
+      <h2 class="blog-post-title">{{ page.title }}</h2>
+        <p>Here are some projects I like to work on. Most of these are open-source and can be found on GitHub unless otherwise noted. Pull/feature requests are welcome.</p>
+        <hr>
+        {% for project in site.data.projects %}
+          <div class="project">
+            <div class="col-md-2"><img class="logo" src="/assets/img/placeholder.png" /></div>
+              <div class="col-md-10"><span class="project-title">{{ project.title }}</span> - <span><a href="{{ project.url }}">{{ project.url }}</a></span>
+                <p>
+                  <ul>
+                    <li>Description: {{ project.description }}</li>
+                    {% if project.github %}
+                      <li>GitHub: {{ project.github }}</li>
+                    {% endif %}
+                    <li>Technologies: {{ project.technologies }}</li>
+                  </ul>
+                </p>
+                <p>awdgflkjnasfdginjsdflgnjsdlfkgjnsdfgkljnsagiluearfgpionlk agzsdpfox;nlkadfgz;klnadfzglksmdfg;amrewgo;klfmdf;lkgmsdlf;kgmsl;dfgm;sldkfmg;lskdmfg</p>
+              </div>
+              <div class="pull-right">
+                <a href="{{ project.permalink }}" class="btn btn-primary" role="button">Read More...</a>
+              </div>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+{% include footer.html %}
