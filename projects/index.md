@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: projects
 title: Projects
 header: Projects
 group: navigation
