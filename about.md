@@ -5,7 +5,7 @@ header: About Me, Amanda
 group: navigation
 timestamp: 1226172900
 permalink: /about/
-weight: 3
+weight: 4
 ---
 # Skip Around
   * [General](#general)
@@ -20,7 +20,7 @@ I guess this is where I write about myself. Here are some things you should know
  - I have a BS in Software Design, and an MS in Forensic Studies (computer forensics). I got both when I was 21.
  - I like to write for people and computers. I speak English, some German, PHP, Perl, C#, and a little bit of C/C++. I want to learn Chinese and Python a bit better.
  - I've been all over the world and love to travel.
- - I own a sweet at life moped. ~~One day I'll own a motorcycle, but I will totally ride the moped to work anyway because it's that legit.~~ I now own a 2011 BMW F650GS. Every now and then I park it in the living room next to the moped and the cats sleep on it since they think it's theirs.
+ - I own a sweet at life moped. <del>One day I'll own a motorcycle, but I will totally ride the moped to work anyway because it's that legit.</del> I now own a 2011 BMW F650GS. Every now and then I park it in the living room next to the moped and the cats sleep on it since they think it's theirs.
  - I really like horses, and I used to go horseback riding a lot.
  - I don't like seafood (but I used to!). Sushi and clam chowder are among the things I used to eat that I now won't touch. However, I love hibachi when chicken or cows are involved.
  - I play guitar and sing, but only for myself. I'd like to be a musician and play for a crowd of millions, but for now I'm content to make noise in the privacy of my apartment.
