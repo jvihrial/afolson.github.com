@@ -1,0 +1,14 @@
+- title: IncrediBL
+  permalink: /projects/incredibl/
+  url: "http://www.incredibl.org"
+  github: "github/incredibl"
+  technologies: "DNSBL project utilising rbldnsd, PHP, bind9, and PostgreSQL."
+  description: "Here is where an in-depth description would go."
+  image: /assets/img/placeholder.png
+
+- title: Rustk
+  permalink: /projects/rustk/
+  url: "http://www.rustk.com"
+  technologies: "Web-based RuneScape rool kit based on Tiko by Zybez."
+  description: "Some more information about this project."
+  image: /assets/img/placeholder.png
