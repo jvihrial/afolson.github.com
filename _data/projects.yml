@@ -6,6 +6,21 @@
   description: "DNSBL project utilising rbldnsd, PHP, bind9, and PostgreSQL."
   image: /assets/img/placeholder.png
 
+- title: Volturnus
+  permalink: /projects/volturnus/
+  url: "https://github.com/afolson/volturnus"
+  github: "https://github.com/afolson/volturnus"
+  technologies: "PHP, MySQL"
+  description: "Web-based control panel for IRC networks running UnrealIRCd."
+  image: /assets/img/placeholder.png
+
+- title: Rustk
+  permalink: /projects/runely/
+  url: "http://rune.ly"
+  technologies: "PHP, MySQL"
+  description: "URL shortener."
+  image: /assets/img/placeholder.png
+
 - title: Rustk
   permalink: /projects/rustk/
   url: "http://www.rustk.com"
