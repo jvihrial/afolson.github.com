@@ -1,0 +1,7 @@
+---
+layout: post
+title: "SOMAD"
+---
+Things that made me agry this morning:
+
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/sublime
