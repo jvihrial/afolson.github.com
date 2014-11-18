@@ -2,10 +2,11 @@ module.exports = function(grunt) {
   var config = {
     bower_path: 'bower_components',
     build_path: '.build',
-    css: 'assets/css',
-    js: 'assets/js',
-    images: 'assets/img',
-    fonts: 'assets/fonts',
+    asset_path: 'assets',
+    component_path: 'site_components',
+    css: '<%= config.asset_path %>/css',
+    js: '<%= config.asset_path %>/js',
+    images: '<%= config.asset_path %>/img',
   };
   grunt.registerTask('default', [ 'concat', 'copy', 'uglify', 'less', 'cssmin', 'clean' ]);
   grunt.initConfig({
@@ -34,22 +35,67 @@ module.exports = function(grunt) {
         dest: '<%= config.build_path %>/bootstrap.js'
       },
     },
+    copy: {
+      main: {
+        files: [
+          {
+            nonull: true,
+            src: ['<%= config.bower_path %>/jquery/dist/jquery.min.js'],
+            dest: '<%= config.js %>/jquery.min.js'
+          },
+          {
+            nonull: true,
+            src: ['<%= config.bower_path %>/jquery/dist/jquery.min.map'],
+            dest: '<%= config.js %>/jquery.min.map'
+          },
+          {
+            nonull: true,
+            expand: true,
+            cwd: '<%= config.bower_path %>/typicons/src/font/',
+            src: ['*', '!*.html', '!*.css', '!*.md'],
+            dest: '<%= config.css %>'
+          },
+          {
+            nonull: true,
+            expand: true,
+            cwd: '<%= config.bower_path %>/typicons/src/font/',
+            src: ['*.css', '!*.min.css'],
+            dest: '<%= config.build_path %>'
+          },
+          {
+            nonull: true,
+            expand: true,
+            cwd: '<%= config.component_path %>/',
+            src: ['*.css', '!*.min.css'],
+            dest: '<%= config.build_path %>'
+          },
+        ]
+      }
+    },
     uglify: {
       options: {
         compress: true,
         mangle: false,
         warnings: false,
         preserveComments: 'some',
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("mm-dd-yyyy") %> */\n'
       },
       build: {
-        files: [{
+        files: [
+          {
             expand: true,
             src: '**/*.js',
             dest: '<%= config.js %>',
             cwd: '<%= config.build_path %>',
             ext: '.min.js'
-        }]
+          },
+          {
+            expand: true,
+            cwd: '<%= config.component_path %>',
+            src: ['*.js', '!*.min.js'],
+            dest: '<%= config.js %>/',
+            ext: '.min.js'
+          }
+        ]
       }
     },
     less: {
@@ -59,26 +105,29 @@ module.exports = function(grunt) {
         }
       },
     },
-    copy: {
-      bower: {
-       files: [{
-         src: '<%= config.bower_path %>/jquery/dist/jquery.min.js',
-         dest: '<%= config.js %>/jquery.min.js'
-       }]
-      }
-    },
     cssmin: {
       minify: {
-        expand: true,
-        cwd: '<%= config.build_path %>/',
-        src: ['*.css', '!*.min.css'],
-        dest: '<%= config.css %>/',
-        ext: '.min.css'
+        files: [
+          {
+            expand: true,
+            cwd: '<%= config.build_path %>/',
+            src: ['*.css', '!*.min.css'],
+            dest: '<%= config.css %>/',
+            ext: '.min.css'
+          },
+          {
+            expand: true,
+            cwd: '<%= config.component_path %>',
+            src: ['*.css', '!*.min.css'],
+            dest: '<%= config.css %>/',
+            ext: '.min.css'
+          }
+        ]
       }
     },
     clean: {
       build: {
-        src: [ '<%= config.build_path %>' ]
+        src: [ '<%= config.build_path %>']
       },
     },
   });
