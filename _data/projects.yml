@@ -6,7 +6,7 @@
   description: "DNSBL project utilising rbldnsd, PHP, bind9, and PostgreSQL."
   image: /assets/img/placeholder.png
 
-- title: Volturnus
+- title: Volturnus (2008-2010)
   permalink: /projects/volturnus/
   url: "https://github.com/afolson/volturnus"
   github: "https://github.com/afolson/volturnus"
@@ -33,4 +33,11 @@
   url: "http://www.pastewin.com"
   technologies: "PHP, MySQL"
   description: "Yet Another Pastebin"
+  image: /assets/img/placeholder.png
+
+- title: Irssi (Scripts)
+  permalink: /projects/irssi/
+  url: "http://irssi.org/"
+  technologies: "Perl"
+  description: "I didn't actually write irssi, I've just made a few scripts for it."
   image: /assets/img/placeholder.png

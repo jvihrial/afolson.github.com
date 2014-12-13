@@ -1,0 +1,16 @@
+{% include header.html %}
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+          <div class="blog-post">
+            <h2 class="blog-post-title">{{ page.title }}</h2>
+              {% for post in site.posts limit: 3 %}
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                {{ post.content }}
+                <hr />
+              {% endfor %}
+          </div>
+        </div>
+{% include sidebar.html %}
+      </div>
+{% include footer.html %}
