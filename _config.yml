@@ -28,4 +28,4 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
-exclude: [vendor]
+exclude: [vendor, README.md]
