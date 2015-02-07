@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: "Okay, America. It's Time to Have a Little Chat."
 category : [Hostility, Politics]
 tagline: 

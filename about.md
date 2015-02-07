@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: About
 header: About Me, Amanda
 group: navigation
@@ -7,14 +7,15 @@ timestamp: 1226172900
 permalink: /about/
 weight: 4
 ---
-# Skip Around
+
+#### Table of Contents
   * [General](#general)
   * [Contact](#contact)
   * [Twitter](#twitter)
 
 ### General
 
-I guess this is where I write about myself. Here are some things you should know about me:
+I guess this is that area of the site where I write some stuff about myself. There's a lot to know, and I'm usually happy to tell, but here are some things you *should* know about me:
 
  - I'm Amanda, a 20-something human that fits somewhere between software developer, marketer, and recruiter. If you were to draw a Venn diagram of my career it would look like some sort of crazy bubble wrap.
  - I have a BS in Software Design, and an MS in Forensic Studies (computer forensics). I got both when I was 21.

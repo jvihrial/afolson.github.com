@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: NaNoWriMo Wrap-up and Review
 category : [Writing]
 tagline: 

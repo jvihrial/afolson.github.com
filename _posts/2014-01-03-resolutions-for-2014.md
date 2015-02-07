@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: Resolutions for 2014
 category : [Projects]
 tagline: 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: Creative Title Here
 category : [Code]
 tagline: 

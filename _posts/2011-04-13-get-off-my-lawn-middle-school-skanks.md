@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: "Get Off My Lawn: Middle School Skanks"
 category : [Get Off My Lawn]
 tagline: 

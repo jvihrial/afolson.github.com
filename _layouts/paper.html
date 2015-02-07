@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>From the Desk of Amanda Folson</title>
+		<meta name="description" content="" />
+		<meta name="robots" content="" />
+		<meta name="keywords" content="" />
+		<link href="/assets/css/paper.css" rel="stylesheet" type="text/css" media="all" />
+	</head>
+	<body>
+		<div id="container">
+			<div class="lego">
+				<img src="/assets/img/lego.png" alt="Lego face" height="100" width="100" />
+			</div>
+			<div id="header">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/blog/">Blog</a></li>
+					<li><a href="/blog/archive/">Archive</a></li>
+					<li><a href="/about/">About</a></li>
+				</ul>
+			</div>
+			<div class="letter">
+				<div class="memo">
+					<p>From the Desk Of</p>
+					<span class="heading_type">AMANDA FOLSON</span>
+				</div>
+				{% if page.hide_title %}
+				{% else %}
+					<h1>{{ page.title }}</h1>
+				{% endif %}
+				{{ content }}
+				<hr />
+				{% if page.previous %}
+				<span class="previousstory"><a href="{{ page.previous.url }}">Previous</a></span>
+				{% endif %}
+				{% if page.next %}
+				<span class="nextstory"><a href="{{ page.next.url }}">Next</a></span>
+				{% endif %}
+			</div>
+			<div id="footer">
+				<p>Copyright &copy; 2015 Amanda Folson</p>
+			</div>
+		</div>
+	</body>
+</html>

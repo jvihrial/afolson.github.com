@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: paper
 title: Blog
 header: Blog
 group: navigation
@@ -9,3 +9,10 @@ subpages:
   - title: Archive
     url: /blog/archive/
 ---
+{% for post in site.posts limit: 3 %}
+	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	{{ post.excerpt }}
+	<p class="readmore"><a href="{{ post.url }}">Read More...</a></p>
+	<hr />
+{% endfor %}

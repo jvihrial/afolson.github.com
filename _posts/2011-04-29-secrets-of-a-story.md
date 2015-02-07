@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: Secrets of a Story
 category : [Writing]
 tagline: 

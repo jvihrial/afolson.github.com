@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: paper
 title: A VPS! A VPS! My kingdom for a VPS!
 category : [Code, FailIRC]
 tagline: 
