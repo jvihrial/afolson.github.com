@@ -12,6 +12,7 @@ author :
   github : afolson
   twitter : AmbassadorAwsum
   linkedin: https://www.linkedin.com/in/violins
+permalink: /blog/:year/:month/:day/:title
 
 # Site Collections
 collections:
