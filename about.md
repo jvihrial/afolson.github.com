@@ -40,7 +40,7 @@ There are several ways to contact me, but the quickest ways tend to be [Twitter]
 
 Aka my adventure in How to Make Friends and Tweet People.
 
-Chances are that my Twitter bio brought you here. Hi! This is a segment about following me/how I use Twitter. Hopefully it'll shine some light on my shenanigans.
+Chances are that my [Twitter bio](https://twitter.com/AmbassadorAwsum) brought you here. Hi! This is a segment about following me/how I use Twitter. Hopefully it'll shine some light on my shenanigans.
 
  - *Tweets are mine and mine alone.* This means you shouldn't take your frustration towards me out on anyone *but* me.
  - *I use Twitter for work and play.* This means you'll see some things about work, life, hobbies, and general happenings. If you're cool with that we can be friends. If you're not cool with that then we can be LinkedIn friends instead. Maybe.
